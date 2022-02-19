@@ -10,6 +10,9 @@
     <repository>
       <id>softalks</id>
       <url>https://maven.pkg.github.com/softalks/*</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
     </repository>
   </repositories>
   <distributionManagement>
