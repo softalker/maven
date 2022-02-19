@@ -3,13 +3,9 @@ on:
     paths:
       - 'pom.xml'
       - '.github/workflows/deploy.yml'
-      
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      packages: write
-
     steps:
       - name: Git Checkout
         uses: actions/checkout@v2
