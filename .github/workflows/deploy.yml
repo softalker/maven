@@ -22,5 +22,5 @@ jobs:
           GITHUB_REPOSITORY=$(echo $GITHUB_REPOSITORY | cut -d'/' -f 2)
           echo "repository name: $GITHUB_REPOSITORY"
           echo "repository owner: $GITHUB_REPOSITORY_OWNER"
-          mvn --batch-mode --update-snapshots deploy -Drepo=${GITHUB_REPOSITORY} -Downer=${GITHUB_REPOSITORY_OWNER}
+          mvn -X --batch-mode --update-snapshots deploy -Drepo=${GITHUB_REPOSITORY} -Downer=${GITHUB_REPOSITORY_OWNER}
           
