@@ -1,0 +1,22 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>softalks</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId></artifactId>
+  <repositories>
+    <repository>
+      <id>softalks</id>
+      <url>https://maven.pkg.github.com/softalks/*</url>
+    </repository>
+  </repositories>
+  <distributionManagement>
+    <repository>
+      <id>upstream-repository</id>
+      <name>github.com/${owner}/${repo}</name>
+      <url>https://maven.pkg.github.com/${owner}/${repo}</url>
+    </repository>
+  </distributionManagement>
+</project>
