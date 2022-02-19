@@ -5,8 +5,9 @@
     <artifactId>pom</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId></groupId>
-  <artifactId></artifactId>
+  <groupId>${owner}</groupId>
+  <artifactId>${repo}</artifactId>
+  <packaging>pom</packaging>
   <repositories>
     <repository>
       <id>softalks</id>
